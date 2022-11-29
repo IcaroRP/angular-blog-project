@@ -3,11 +3,12 @@
 }
 
 .menu-title-container > h1{
-  border-top: 1px solid rgba(255,255,255,0.1);
-  border-bottom: 1px solid rgba(255,255,255,0.1);
-
-  font-size: 500px;
+  font-size: 200px;
   font-family: Segoe UI;
   display: flex;
   justify-content: center;
+}
+
+.menu-title-container > hr {
+  border: 0.5px solid rgba(255,255,255,0.1);
 }

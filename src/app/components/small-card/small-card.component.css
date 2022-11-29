@@ -1,5 +1,5 @@
 .container_smmall-card{
-  width: 600px;
+  width: 450px;
   margin-bottom: 15px;
 }
 
@@ -9,17 +9,30 @@
 }
 
 .small-card_photo > img {
-  width: 200px;
-  min-width: 200px;
+  width: 160px;
+  min-width: 160px;
   margin-right: 20px;
+}
+
+.small_card-title > h1 {
+  font-size: 20px;
+}
+
+.date{
+  font-size: 11px;
+  line-height: 11px;
+  color: #ffffff;
+  opacity: 0.3;
+  padding: 10px 0px 0px;
 }
 
 .small_card-title{
  display: flex;
+ flex-direction: column;
  justify-content: center;
- align-items: center;
 }
 
-.container_small-card-separator{
+.container_small-card-separator > hr{
   margin-top: 10px;
+  border: 0.5px solid rgba(255,255,255,0.1);
 }
